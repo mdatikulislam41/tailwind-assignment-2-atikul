@@ -148,21 +148,25 @@
       <!-- Power Section start -->
 
       <section class="mx-auto max-w-360 px-4 md:px-8 bg-neutral-100">
-        <div class="flex flex-col md:flex-row gap-2 md:gap-5 lg:gap-8">
+        <div class="flex flex-col lg:flex-row gap-2 md:gap-10 lg:gap-8">
           <div
-            class="item-1 flex items-center grid-item-1 md:w-3/12 mb-6 md:mb-0"
+            class="item-1 flex items-center grid-item-1 lg:w-3/12 mb-6 md:mb-0"
           >
-            <h2 class="font-bold text-5xl text-center md:text-left mx-auto">
+            <h2
+              class="font-bold lg:text-2xl xl:text-[2.5rem] text-center md:text-left mx-auto"
+            >
               At <span class="text-active">C4U</span>, <br />
               We Empower:
             </h2>
           </div>
-          <div class="item-2 grid grid-cols-1 sm:grid-cols-3 gap-4 md:w-9/12">
+          <div
+            class="item-2 grid grid-cols-1 sm:grid-cols-3 gap-4 lg:w-9/12 mx-auto"
+          >
             <!-- icon box start start-->
             <div
-              class="bg-slate-800 flex flex-col items-start justify-center gap-4 p-6 rounded-xl"
+              class="bg-slate-800 flex flex-col items-start justify-center gap-4 p-6 rounded-xl max-w-[256px] lg:max-w-[325px]"
             >
-              <span class="bg-white size-12 p-2 rounded-full">
+              <span class="bg-white size-12 p-2 rounded-full flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="33"
@@ -214,9 +218,9 @@
             <!-- icon box start end-->
             <!-- icon box start start-->
             <div
-              class="bg-slate-800 flex flex-col items-start justify-center gap-4 p-6 rounded-xl"
+              class="bg-slate-800 flex flex-col items-start justify-center gap-4 p-6 rounded-xl max-w-[256px] lg:max-w-[325px]"
             >
-              <span class="bg-white size-12 p-2 rounded-full">
+              <span class="bg-white size-12 p-2 rounded-full flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="33"
@@ -259,9 +263,9 @@
             <!-- icon box start end-->
             <!-- icon box start start-->
             <div
-              class="bg-slate-800 flex flex-col items-start justify-center gap-4 p-6 rounded-xl"
+              class="bg-slate-800 flex flex-col items-start justify-center gap-4 p-6 rounded-xl max-w-[256px] lg:max-w-[325px]"
             >
-              <span class="bg-white size-12 p-2 rounded-full">
+              <span class="bg-white size-12 p-2 rounded-full flex items-center">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="33"
@@ -304,7 +308,7 @@
         <div class="relative">
           <!-- Vertical Start -->
           <div
-            class="hidden md:block absolute top-35 left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-zinc-400/50"
+            class="hidden md:block absolute top-35 left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-zinc-400/50 z-[2]"
           >
             <!-- Green dots -->
             <div
@@ -318,7 +322,7 @@
             ></div>
           </div>
           <!-- Vertical End -->
-          <div id="about" class="relative pb-[167px] md:pt-0">
+          <div id="about" class="relative pb-[167px] md:pt-0 z-[1]">
             <!-- Item 1 -->
             <div
               class="flex flex-col md:flex-row gap-10 md:gap-8 md:h-[700px] pt-[167px] relative"
@@ -406,21 +410,30 @@
                   />
                 </div>
               </div>
-
-              <div
-                class="backround_content absolute -z-[1] bottom-0 left-0 right-0 mx-auto"
+              <img
+                src="./src/images/mission/oval/Path.svg"
+                alt=""
+                class="absolute bottom-0 left-0 right-0 mx-auto z-[-2]"
+              />
+              <img
+                src="./src/images/mission/oval/Oval.png"
+                alt=""
+                class="absolute bottom-0 left-0 right-0 mx-auto z-[-2]"
+              />
+              <!-- <div
+                class="backround_content absolute z-[-1] bottom-0 left-0 right-0 mx-auto"
               >
                 <img
                   src="./src/images/mission/oval/Path.svg"
                   alt=""
                   class="mx-auto"
                 />
-              </div>
+              </div> -->
               <!-- quote - end -->
             </div>
             <!-- Item 2 -->
             <div
-              class="flex flex-col-reverse md:flex-row gap-6 md:gap-8 md:h-[680px] pt-[167px]"
+              class="flex flex-col-reverse md:flex-row gap-6 md:gap-8 md:h-[680px] pt-[167px] relative"
             >
               <!-- quote - start -->
               <div class="mission-items relative md:w-1/2 min-h-[33.125rem]">
@@ -468,6 +481,11 @@
                   />
                 </div>
               </div>
+              <img
+                src="./src/images/mission/oval/Oval.svg"
+                alt=""
+                class="absolute inset-0 mx-auto"
+              />
               <!-- quote - end -->
               <!-- quote - start -->
               <div
