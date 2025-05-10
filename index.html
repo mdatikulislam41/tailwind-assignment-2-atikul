@@ -6,9 +6,74 @@
     <link href="./src/style.css" rel="stylesheet" />
     <title>Tailwind</title>
   </head>
-  <body>
+  <body class="font-jakarta">
     <!-- Header Content -->
-    <header></header>
+    <header
+      class="max-w-360 ps-4 md:ps-[45px] pe-4 md:pe-15 py-3 mx-auto flex items-center justify-between bg-white border-l-active border-l-[23px]"
+    >
+      <!-- Logo Image -->
+      <a href="./index.html"
+        ><img src="./src/images/header/logo.png" alt="Logo"
+      /></a>
+      <!-- Navigation Bar -->
+      <nav class="pe-8 hidden lg:flex">
+        <ul class="flex items-center justify-between gap-8 font-jakarta">
+          <li>
+            <a
+              href=""
+              class="font-normal text-base text-[#072125] hover:text-active"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="font-normal text-base text-[#072125] hover:text-active"
+              >About Us</a
+            >
+          </li>
+          <li>
+            <a href="" class="font-normal text-base text-active">Upskill</a>
+          </li>
+          <li>
+            <a
+              href=""
+              class="font-normal text-base text-[#072125] hover:text-active"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- Button Part -->
+      <div
+        class="button_part hidden lg:flex items-center justify-between gap-[22px]"
+      >
+        <a
+          href=""
+          class="inline-block px-4 py-2.5 bg-active hover:bg-active/50 text-center text-lg font-jakarta font-normal rounded-lg text-white"
+          >Register Interest</a
+        >
+      </div>
+      <button
+        type="button"
+        class="inline-flex items-center gap-2 rounded-lg bg-active px-2.5 py-2 text-sm font-semibold text-white ring-indigo-300 hover:bg-active/50 focus-visible:ring active:text-gray-700 md:text-base lg:hidden"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 w-6"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h6a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+            clip-rule="evenodd"
+          />
+        </svg>
+
+        Menu
+      </button>
+    </header>
     <!-- Main Content -->
     <main></main>
     <!-- Footer Start -->
