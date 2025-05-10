@@ -9,32 +9,29 @@
   --color-active: #f44335;
   --color-background: #fafafa;
 }
-.curved {
-  position: relative;
-  background: var(--color-active);
-  height: 100%;
-  background-image: url(./images/hero/hero-4.svg);
-}
-@keyframes bounce {
-  0%,
-  100% {
-    transform: translateY(-25%);
-    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+@layer base {
+  :root {
+    font-size: 10px; /* default */
   }
-  50% {
-    transform: none;
-    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+
+  @media (min-width: 640px) {
+    /* sm */
+    :root {
+      font-size: 12px;
+    }
   }
-}
-@keyframes pulse {
-  50% {
-    opacity: 0.5;
+
+  @media (min-width: 768px) {
+    /* md */
+    :root {
+      font-size: 14px;
+    }
   }
-}
-@keyframes ping {
-  75%,
-  100% {
-    transform: scale(2);
-    opacity: 0;
+
+  @media (min-width: 1024px) {
+    /* lg */
+    :root {
+      font-size: 16px;
+    }
   }
 }
