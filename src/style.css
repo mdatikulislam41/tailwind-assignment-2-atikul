@@ -9,3 +9,9 @@
   --color-active: #f44335;
   --color-background: #fafafa;
 }
+.curved {
+  position: relative;
+  background: var(--color-active);
+  height: 100%;
+  background-image: url(./images/hero/hero-4.svg);
+}
